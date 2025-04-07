@@ -38,6 +38,9 @@ public class Tabuada {
 			multiplicadorMenor = temp;
 		}
 		
+		int tamanhoVetor = (int) (multiplicadorMaior - multiplicadorMenor + 1);
+		
+		String tabuada[] = new String[tamanhoVetor];
 		
 		while(multiplicadorMenor <= multiplicadorMaior) {
 			double produto = multiplicando * multiplicadorMenor;
